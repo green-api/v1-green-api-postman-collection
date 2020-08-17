@@ -1,0 +1,29 @@
+{
+	"id": "1bd87846-8895-4c55-a696-c45879c7c1cd",
+	"name": "Green API Developer v1",
+	"values": [
+		{
+			"key": "URL",
+			"value": "https://api.green-api.com",
+			"enabled": true
+		},
+		{
+			"key": "Media-URL",
+			"value": "https://media.green-api.com",
+			"enabled": true
+		},
+		{
+			"key": "AuthToken",
+			"value": "<your auth token>",
+			"enabled": true
+		},
+		{
+			"key": "Test-Media-Id",
+			"value": "<your media id>",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2020-08-17T19:02:26.992Z",
+	"_postman_exported_using": "Postman/7.28.0"
+}
