@@ -538,6 +538,51 @@
 			"protocolProfileBehavior": {}
 		},
 		{
+			"name": "Notifications",
+			"item": [
+				{
+					"name": "Get-Notification",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/v1/notifications",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"v1",
+								"notifications"
+							]
+						},
+						"description": "[Docs](https://green-api.com/docs-v1/api/messages/text/)"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete-Notification",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/v1/notifications/{{receipt}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"v1",
+								"notifications",
+								"{{receipt}}"
+							]
+						},
+						"description": "[Docs](https://green-api.com/docs-v1/api/messages/text/)"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
 			"name": "Media",
 			"item": [
 				{
